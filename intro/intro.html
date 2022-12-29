@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mateusz Teteruk - Intro</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Poppins);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Poppins'; }
+
+      h1, h2, h3 {
+        font-family: 'Poppins';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .left-column {
+        float: left;
+        width: 40%;
+      }
+
+      .right-column {
+        float: right;
+        width: 59%;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Hello there!
+
+---
+
+# About me
+
+.left-column[
+    <img src="https://avatars.githubusercontent.com/u/20190241?v=4" height="220"/>
+]
+
+.right-column[
+- I'm Mateusz
+]
+
+---
+
+# About me
+
+.left-column[
+    <img src="https://avatars.githubusercontent.com/u/20190241?v=4" height="220"/>
+]
+
+.right-column[
+- I'm Mateusz
+- Fan of idiomatic Kotlin, and as a result, of understandable and elegant code
+]
+
+---
+
+# About me
+
+.left-column[
+    <img src="https://avatars.githubusercontent.com/u/20190241?v=4" height="220"/>
+]
+
+.right-column[
+- I'm Mateusz
+- Fan of idiomatic Kotlin, and as a result, of understandable and elegant code
+- My eyes can see every UI/UX imperfection
+]
+
+---
+
+# About me
+
+.left-column[
+    <img src="https://avatars.githubusercontent.com/u/20190241?v=4" height="220"/>
+]
+
+.right-column[
+- I'm Mateusz
+- Fan of idiomatic Kotlin, and as a result, of understandable and elegant code
+- My eyes can see every UI/UX imperfection
+- Creator of the NowoczesnyAndroid.pl newsletter and co-creator of the KlubMobile.pl community
+]
+
+---
+
+# Experience
+
+- Creating awesome Android applications since 2017
+- Experience with legacy projects (Java code from 2015)
+- Starting new projects with cutting-edge technology (Kotlin Multiplatform Mobile, Jetpack Compose)
+- Mostly Kotlin stuff
+- Writing weekly Android and Kotlin oriented newsletter since Oct 2021
+
+---
+
+# Few random facts
+
+- Fan of Star Wars
+- Aspiring Digital Art creator
+- Reading books
+
+---
+
+# Kotlin code 
+
+So you want to see some cool code, huh?
+
+---
+
+# Kotlin code 
+
+```Kotlin
+@Composable
+private fun produceTimeInSeconds(): State<Float> = produceState(
+    initialValue = 0F,
+    producer = {
+        while (true) {
+            withInfiniteAnimationFrameMillis {
+                value = it.toFloat() / 1000F
+            }
+        }
+    }
+)
+```
+
+---
+
+# Where you can find me
+
+🤖 LinkedIn: https://linkedin.com/in/mateuszteteruk
+
+🤖 Twitter: https://twitter.com/mateuszteteruk 
+
+🤖 GitHub: https://github.com/mateuszteteruk
+
+🤖 Instagram: https://instagram.com/mateuszteteruk
+
+
+
+</textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js">
+</script>
+<script>
+var slideshow = remark.create();
+</script>
+</body>
+</html>
